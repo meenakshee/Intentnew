@@ -19,6 +19,13 @@
         android:id="@+id/btnpass"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv1"
+        android:text="
+        Hello"
+        android:layout_below="@id/btnpass"/>
 
     <EditText
         android:layout_width="wrap_content"
