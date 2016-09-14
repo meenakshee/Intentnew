@@ -8,21 +8,58 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".SecondActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#A6ACAF">
+
+
      <TextView
          android:layout_height="wrap_content"
          android:layout_width="wrap_content"
          android:text="hello"
          android:id="@+id/tv1"
          android:textSize="40dp"
-         android:layout_centerHorizontal="true"/>
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="8dp"
+         android:textColor="#2980B9"/>
 
      <Button
          android:layout_height="wrap_content"
          android:layout_width="wrap_content"
          android:id="@+id/btn1"
-         android:text="pass"/>
+         android:text="pass"
+         android:background="#F8C"/>
 
 
+
+     <EditText
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/et1"
+         android:hint="contact name"
+         android:inputType="text"/>
+
+
+
+     <EditText
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/et2"
+         android:hint="mobile number"
+         android:inputType="number"/>
+
+
+
+     <EditText
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/et3"
+         android:hint="email address"/>
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:id="@+id/btn2"
+         android:text="LogIn"
+         android:background="#F8C"
+         android:onClick="addContact"/>
 
 </LinearLayout>
